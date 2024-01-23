@@ -9,7 +9,8 @@
   <mat-card-content class="mt-2">
     <h4>{{ hero.publisher }}</h4>
     <p>
-      <strong>Primero aparición</strong> {{ hero.first_appearance }}
+      <strong>Primero aparición</strong> <br>
+      <span>{{ hero.first_appearance }}</span>
       <br>
       <mat-chip-listbox class="my-2">
         <mat-chip *ngFor="let name of hero.characters.split(',') | slice: 0 : 3">

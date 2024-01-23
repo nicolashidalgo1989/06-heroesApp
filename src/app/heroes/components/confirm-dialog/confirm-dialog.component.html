@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>¿Estás seguro de borrar el héroe?</h1>
+<div mat-dialog-content>
+  <p>Esta acción es irreversible</p>
+  <!-- <mat-form-field>
+    <mat-label>Favorite Animal</mat-label>
+     <input matInput [(ngModel)]="data.animal">
+  </mat-form-field> -->
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <span class="spacer"></span>
+  <button mat-button (click)="onConfirmDelete()" color="warn" cdkFocusInitial>Ok</button>
+</div>
