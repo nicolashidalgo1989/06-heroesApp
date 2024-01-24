@@ -1,3 +1,3 @@
 export const environment = {
-  baseUrl: 'http://nico.com/api'
+  baseUrl: 'https://nicolashidalgo1989.github.io/06-heroesApp/'
 }
